@@ -1,0 +1,16 @@
+
+go run .
+# Run the first main() function found on module
+
+go run MyFile.go
+# Execute the file
+
+go build MyFile.go
+# Compile the file as a executable binary
+
+go mod init MyModule
+# create new go.mod file for package manage
+
+go mod tidy
+# Locate and download dependencies on current module
+
